@@ -1,0 +1,185 @@
+.sliderFormat {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  padding-top: 3em;
+  padding-left: 1em; }
+
+.middleFormat, #home, #middle_home, #middle_the-app, #middle_features {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.cuadros, #the-app .uno, #the-app .uno:hover {
+  text-align: center;
+  height: 200px;
+  padding-top: 7%; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: "ProximaNova-Bold",Helvetica,Arial,sans-serif; }
+
+p {
+  color: white; }
+
+h2 {
+  font-size: 4em;
+  line-height: 1;
+  font-weight: bold;
+  text-rendering: optimizelegibility;
+  text-align: center; }
+
+h3 {
+  font-size: 2em;
+  line-height: 1;
+  font-weight: bold;
+  text-rendering: optimizelegibility;
+  text-align: justify; }
+
+h4 {
+  font-size: 1.5em;
+  line-height: 1;
+  font-weight: bold;
+  text-rendering: optimizelegibility;
+  color: #58D8E7;
+  text-align: justify; }
+
+h1 {
+  color: white;
+  font-size: 4.5em;
+  line-height: 1;
+  font-weight: normal;
+  text-rendering: optimizelegibility;
+  text-align: center; }
+
+.navigation {
+  position: fixed;
+  background-color: #444444;
+  z-index: 1;
+  width: 100%;
+  height: 50px; }
+  .navigation img {
+    width: 180px;
+    margin-top: 3%; }
+  .navigation nav {
+    color: white;
+    text-align: center; }
+    .navigation nav #menu {
+      display: block;
+      padding-top: 1.2em;
+      font-size: 16px; }
+    .navigation nav #menu:hover {
+      background-color: #e26562;
+      height: 50px; }
+
+.slide {
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.3); }
+
+#home {
+  background-image: url(../img/fondo3.jpg);
+  padding-top: 8%;
+  position: relative; }
+  #home .figuras {
+    position: absolute;
+    bottom: 0px; }
+    #home .figuras img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 140px; }
+  #home .order {
+    padding-top: 25px;
+    display: block;
+    background-color: #89A930;
+    color: white;
+    font-size: 3.5em;
+    text-align: center;
+    height: 100px; }
+  .facebook {
+    padding-top: 12px;
+    display: block;
+    background-color: #3B5998;
+    color: white;
+    text-align: center;
+    height: 40px; }
+  .twitter {
+    padding-top: 12px;
+    display: block;
+    background-color: #00aced;
+    color: white;
+    text-align: center;
+    height: 40px; }
+    .twitter a{
+    color:white;
+  }
+  #home h1 {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+  #home p {
+    text-align: justify;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+
+#middle_home {
+  background-image: url(../img/fondo2.jpg); }
+
+#the-app {
+  background-color: #F8F8FA;
+  padding-top: 5%; }
+  #the-app h2 {
+    font-size: 3em;
+    color: #58D8E7; }
+  #the-app h3 {
+    text-align: center;
+    font-size: 1em;
+    color: #A2A4A8; }
+  #the-app p {
+    color: #A2A4A8; }
+  #the-app .uno:hover {
+    background-color: rgba(216, 121, 120, 0.75); }
+    #the-app .uno:hover p {
+      color: white; }
+
+#middle_the-app {
+  background-image: url(../img/fondo.jpg);
+  height: 100%; }
+
+#middle_features {
+  background-image: url(../img/fondo4.jpg);
+  height: 100%; }
+
+#features {
+  background-color: #F8F8FA;
+  padding-top: 5%; }
+  #features h2 {
+    color: #58D8E7;
+    text-align: center; }
+  #features img {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  #features ul li {
+    list-style: none; }
+    #features ul li h3 {
+      font-size: 1.5em;
+      color: rgba(216, 121, 120, 0.75); }
+    #features ul li p {
+      color: #A2A4A8;
+      text-align: justify;
+      font-size: 0.9em;
+      margin-left: 6%; }
+
+#myModal {
+  background-color: #F8F8FA; }
+  #myModal h2 {
+    color: #58D8E7;
+    text-align: center; }
+  #myModal p {
+    color: black;
+    padding: 0;
+    text-align: center; }
